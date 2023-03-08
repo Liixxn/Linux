@@ -1,0 +1,25 @@
+
+Muchas personas han oido hablar de GNU/Linux, y siendo o no usuario, 
+muchos no saben que distribución elegir para empezar a utilizar Linux. 
+Incluso algunos que ya estan más metidos en el mndo Linux, 
+todavía no saben exactamente cual elegir para conseguir el mayor potencial posible para su cometido.
+
+Una distribución o distro de Linuxno es más que una versión personalizada del sistema operativo original, el kernel o núcleo de Linux.
+
+
+Estabilidad:
+    Se centran en que las versiones y actualizaciones sean lo mas estables posibles.
+    Son usadas normalmente para ususarios regulares ya que no suelen dar ningun problema y tienen una funcionalidad optima.
+    Ejemplos:  Debian, Red Hat Enterprise Linux, openSUSE...
+Principiantes:
+
+    Ejemplos: Ubuntu, Linux Mint, Peppermint OS... 
+Privacidad:
+
+Equipos menos potentes:
+
+Apasionados de Hobbies:
+
+
+
+

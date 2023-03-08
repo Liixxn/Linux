@@ -1,0 +1,23 @@
+Contexto:
+Linux es un UNIX de libre distribución desarrollado inicialmente por el programador finlandés
+Linus Torvalds–, que ha crecido rápidamente gracias a la ayuda de una gran cantidad de
+programadores comunicados por Internet, y que han desarrollado y probado muchos
+componentes para el sistema
+
+En la actualidad existen varias distribuciones de Linux: RedHat (es la que utilizaremos en este
+curso), Slackware, Debian, etc. Algunas de ellas han sido desarrolladas no sólo para ordenadores
+personales basados en procesadores Intel o compatibles–, sino también para máquinas con
+procesadores Sparc o PowerPC. 
+
+
+Características fundamentales: 
+    - Sistema operativo multiusuario y multitarea
+    - Sistema operativo basado en capas
+    - El almacenamiento en disco se organiza en sistemas de archivos
+    - Los espacios de paginación permiten incrementar la memoria disponible
+    - Trabaja con el protocolo de red TCP/IP
+    - Cada usuario tiene una cuenta cuyas características y permisos vienen definidos por el
+      administrador (root)
+    - El usuario se comunica con el sistema mediante el intérprete de mandatos
+    - Cada programa en ejecución consta de uno o más procesos, con identificador único y con
+      una relación de parentesco 
