@@ -37,7 +37,7 @@
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+                <span class="sr-only">Cargando...</span>
             </div>
         </div>
         <!-- Spinner End -->
@@ -47,7 +47,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-search me-2"></i>Linux<span class="fs-5">Master</span></h1>
+                    <h1 class="m-0"><span><img src="img/linux.png"></span></i>Linux<span class="fs-5">Master</span></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -82,9 +82,9 @@
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                                    <li class="breadcrumb-item text-white active" aria-current="page">Project</li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="#introduccion">Introducción</a></li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="#guia">Guía</a></li>
+                                    <!--<li class="breadcrumb-item text-white active" aria-current="page">Project</li>-->
                                 </ol>
                             </nav>
                         </div>
@@ -95,112 +95,56 @@
         <!-- Navbar & Hero End -->
 
 
-        <!-- Full Screen Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content" style="background: rgba(29, 29, 39, 0.7);">
-                    <div class="modal-header border-0">
-                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center justify-content-center">
-                        <div class="input-group" style="max-width: 600px;">
-                            <input type="text" class="form-control bg-transparent border-light p-3" placeholder="Type search keyword">
-                            <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Full Screen Search End -->
 
 
         <!-- Portfolio Start -->
         <div class="container-xxl py-5">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="position-relative d-inline text-primary ps-4">Our Projects</h6>
-                    <h2 class="mt-2">Recently Launched Projects</h2>
+                    <h6 class="position-relative d-inline text-primary ps-4">Comandos</h6>
+                    <h3 id="introduccion">Introducción</h3>
+                    <p>En este apartado se van a muchos de los comandos que se pueden llegar a ejecutar con Linux, desde
+                    los más utilizados hasta los más curiosos. En Linux se pueden hacer cosas a través de la interfaz gráfica de usuario, pero se pueden llevar
+                    a cabo de una manera más eficaz en la terminal o shell.</p>
+
+                    <div class="div-shell">
+                        <h5>¿Qué es la shell?</h5>
+                        <p>La shell de Linux es el intérprete de comandos que recibe órdenes del usuario o las que se encuentra
+                            en un script y los envía al sistema operativo para procesarlos.</p>
+                        <p>Para abrir una shell hay varias formas de hacerlo, además de en la plataforma en la que éstes:</p>
+                        <a href="https://es.wikipedia.org/wiki/Shell_de_Unix" target="_blank"><img src="https://automatedprogrammer.sh/wp-content/uploads/2018/05/cropped-Linux-Shell.png" alt="Shell de Linux"
+                             width="150" height="150"></a>
+                    </div>
                 </div>
+
+                <div class="ubuntu-shell">
+                    <h5 align="center">¿Cómo sacar la shell?</h5>
+                    <ul>
+                        <li><b>Ubuntu:</b><a href="https://ubuntu.com"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo-ubuntu_cof-orange-hex.svg" widht="20" height="20" alt="Ubuntu logo"></a>
+                            <ul>
+                                <li><b style="color:green">Ctrl+Alt+T</b></li>
+                                <li><b style="color:green">Alt+F2</b> y escriba gnome-terminal en la pequeña ventana flotante.</li>
+                            </ul>
+                            <div style="margin-top: 20px;" align="center">
+                                <img src="img/linux-shell.png" width="50%" height="50%">
+                            </div>
+                        </li>
+                        <li><b>Raspberry:</b><a href="https://www.raspberrypi.com"><img src="https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png" width="30" height="30" alt="Raspberry Pi logo"></a>
+                            <ul>
+                                <li>Escriba <b style="color:green">lxterminal.</b></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+
                 <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-12 text-center">
-                        <ul class="list-inline mb-5" id="portfolio-flters">
-                            <li class="btn px-3 pe-4 active" data-filter="*">All</li>
-                            <li class="btn px-3 pe-4" data-filter=".first">Design</li>
-                            <li class="btn px-3 pe-4" data-filter=".second">Development</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row g-4 portfolio-container">
-                    <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.1s">
-                        <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
-                                <div class="mt-auto">
-                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.3s">
-                        <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
-                                <div class="mt-auto">
-                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.6s">
-                        <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
-                                <div class="mt-auto">
-                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.1s">
-                        <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
-                                <div class="mt-auto">
-                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.3s">
-                        <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
-                                <div class="mt-auto">
-                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.6s">
-                        <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
-                                <div class="mt-auto">
-                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                                    <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
-                                </div>
-                            </div>
+                        <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                            <h6 class="position-relative d-inline text-primary ps-4">Guía</h6>
+                            <h3 id="guia">Guía</h3>
+                            <p>Comenzaremos por introducir varios comandos por diferentes categorías</p>
                         </div>
                     </div>
                 </div>
