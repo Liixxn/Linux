@@ -21,3 +21,26 @@ Características fundamentales:
     - El usuario se comunica con el sistema mediante el intérprete de mandatos
     - Cada programa en ejecución consta de uno o más procesos, con identificador único y con
       una relación de parentesco 
+
+
+
+
+Links:
+
+video explicativo:
+https://www.youtube.com/watch?v=hZDaS9xyINI&ab_channel=EDteam
+
+
+
+
+<div class="row g-3">
+                            <div class="col-sm-6">
+                                <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Award Winning</h6>
+                                <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Professional Staff</h6>
+                            </div>
+                            <div class="col-sm-6">
+                                <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>24/7 Support</h6>
+                                <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Fair Prices</h6>
+                            </div>
+                        </div>
+

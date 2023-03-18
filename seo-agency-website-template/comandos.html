@@ -14,7 +14,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -35,7 +36,8 @@
 <body>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Cargando...</span>
             </div>
@@ -46,8 +48,10 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0"><span><img src="img/linux.png"></span></i>Linux<span class="fs-5">Master</span></h1>
+                <a href="inicio.html" class="navbar-brand p-0">
+                    <h1 class="m-0"><span><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"></span></i>Linux<span
+                            class="fs-5">Master</span></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -82,9 +86,11 @@
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item"><a class="text-white" href="#introduccion">Introducción</a></li>
+                                    <li class="breadcrumb-item"><a class="text-white"
+                                            href="#introduccion">Introducción</a></li>
                                     <li class="breadcrumb-item"><a class="text-white" href="#guia">Guía</a></li>
-                                    <!--<li class="breadcrumb-item text-white active" aria-current="page">Project</li>-->
+                                    <li class="breadcrumb-item"><a class="text-white" href="#interes">Sitios de
+                                            interés</a></li>
                                 </ol>
                             </nav>
                         </div>
@@ -104,32 +110,41 @@
                     <h6 class="position-relative d-inline text-primary ps-4">Comandos</h6>
                     <h3 id="introduccion">Introducción</h3>
                     <p>En este apartado se van a muchos de los comandos que se pueden llegar a ejecutar con Linux, desde
-                    los más utilizados hasta los más curiosos. En Linux se pueden hacer cosas a través de la interfaz gráfica de usuario, pero se pueden llevar
-                    a cabo de una manera más eficaz en la terminal o shell.</p>
+                        los más utilizados hasta los más curiosos. En Linux se pueden hacer cosas a través de la
+                        interfaz gráfica de usuario, pero se pueden llevar
+                        a cabo de una manera más eficaz en la terminal o shell.</p>
 
                     <div class="div-shell">
                         <h5>¿Qué es la shell?</h5>
-                        <p>La shell de Linux es el intérprete de comandos que recibe órdenes del usuario o las que se encuentra
+                        <p>La shell de Linux es el intérprete de comandos que recibe órdenes del usuario o las que se
+                            encuentra
                             en un script y los envía al sistema operativo para procesarlos.</p>
-                        <p>Para abrir una shell hay varias formas de hacerlo, además de en la plataforma en la que éstes:</p>
-                        <a href="https://es.wikipedia.org/wiki/Shell_de_Unix" target="_blank"><img src="https://automatedprogrammer.sh/wp-content/uploads/2018/05/cropped-Linux-Shell.png" alt="Shell de Linux"
-                             width="150" height="150"></a>
+                        <p>Para abrir una shell hay varias formas de hacerlo, además de en la plataforma en la que
+                            éstes:</p>
+                        <a href="https://es.wikipedia.org/wiki/Shell_de_Unix" target="_blank"><img
+                                src="https://automatedprogrammer.sh/wp-content/uploads/2018/05/cropped-Linux-Shell.png"
+                                alt="Shell de Linux" width="150" height="150"></a>
                     </div>
                 </div>
 
                 <div class="ubuntu-shell">
                     <h5 align="center">¿Cómo sacar la shell?</h5>
                     <ul>
-                        <li><b>Ubuntu:</b><a href="https://ubuntu.com"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo-ubuntu_cof-orange-hex.svg" widht="20" height="20" alt="Ubuntu logo"></a>
+                        <li><b>Ubuntu:</b><a href="https://ubuntu.com" target="_blank"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo-ubuntu_cof-orange-hex.svg"
+                                    widht="20" height="20" alt="Ubuntu logo"></a>
                             <ul>
                                 <li><b style="color:green">Ctrl+Alt+T</b></li>
-                                <li><b style="color:green">Alt+F2</b> y escriba gnome-terminal en la pequeña ventana flotante.</li>
+                                <li><b style="color:green">Alt+F2</b> y escriba gnome-terminal en la pequeña ventana
+                                    flotante.</li>
                             </ul>
                             <div style="margin-top: 20px;" align="center">
                                 <img src="img/linux-shell.png" width="50%" height="50%">
                             </div>
                         </li>
-                        <li><b>Raspberry:</b><a href="https://www.raspberrypi.com"><img src="https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png" width="30" height="30" alt="Raspberry Pi logo"></a>
+                        <li><b>Raspberry:</b><a href="https://www.raspberrypi.com" target="_blank"><img
+                                    src="https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png"
+                                    width="30" height="30" alt="Raspberry Pi logo"></a>
                             <ul>
                                 <li>Escriba <b style="color:green">lxterminal.</b></li>
                             </ul>
@@ -141,91 +156,244 @@
 
                 <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-12 text-center">
-                        <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                            <h6 class="position-relative d-inline text-primary ps-4">Guía</h6>
+                        <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <h6 class="position-relative d-inline text-primary ps-4">Tutorial</h6>
                             <h3 id="guia">Guía</h3>
-                            <p>Comenzaremos por introducir varios comandos por diferentes categorías</p>
+                            <p>Primero, vamos a introducir 2 comandos que son de gran ayuda, ya que proporcionan ayuda
+                                en línea sobre
+                                otros comandos.
+                        </div>
+
+                        <div class="manual-comands">
+                            <div class="row">
+                                <div class="card-help">
+                                    <h4 class="help">man</h4>
+                                    <p>Comando que despliega un manual sobre el comando que se desea consultar.</p>
+                                    <p><b>$ </b> man [comando]</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="card-help">
+                                    <h4 class="help">--help</h4>
+                                    <p>Muestra una ayuda rápida de cualquier comnado, mostrando los argumentos y
+                                        parámetros necesarios.</p>
+                                    <p><b>$ </b> [comando] --help</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 50px;">
+                            <p>También la shell introduce la opción de autocompletar con la tabulación, para una mayor
+                                rapidez.
+                                Linux tiene una gran variedad de paquetes y programas, por lo que existe un instalador
+                                llamado
+                                <b>apt-get</b>, que se encarga de instalar y actualizar los paquetes de software. Esto
+                                debe hacerse desde el
+                                superusuario (sudo).
+                            <h5>Instalar paquetes</h5>
+                            <p><b>$ </b> sudo apt-get install [nombre paquete]</p>
+                            <h5>Actualizar paquetes</h5>
+                            <p><b>$ </b> sudo apt-get update</p>
+                            <h5>Eliminar paquetes</h5>
+                            <p><b>$ </b> sudo apt-get remove [nombre paquete]</p>
+                            <h5>Buscar paquetes</h5>
+                            <p><b>$ </b> sudo apt-cache search [nombre paquete]</p>
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="lista-comandos">
+                        <h3 align="center"><u>Comandos básicos</u></h3>
+
+                        <h4 class="commands">pwd</h4>
+                        <p>Se utiliza para conocer el directorio en el que te encuentras en ese momento, devuelve un
+                            path absoluto, empezando
+                            desde la raíz (root). La raíz es la base de un sistema Linux, se denota con (/).
+                            El directorio del usuario debe ser algo como "<b><i>/home/nombreusuario</i></b>"
+                        </p>
+                        <div style="margin-top: 20px;" align="center">
+                            <img align="center" src="img/pwd.png">
+                        </div>
+
+
+                        <h4 class="commands">ls</h4>
+                        <p>Para conocer los ficheros que se encuentran en el directorio en el que te encuentras, escriba
+                            <b>ls</b>.
+                            Este comando tiene muchas opciones a desplegar, por ejemplo si queremos ver los archivos
+                            ocultos Escriba
+                            <b>ls -a</b>
+                        </p>
+                        <div style="margin-top: 20px;" align="center">
+                            <img align="center" src="img/ls.png">
+                        </div>
+
+
+                        <h4 class="commands">cd</h4>
+                        <p>Puedes cambiar el directorio en el que te encuentras, usando <b>cd</b>, abreviación de
+                            "<b>c</b>hange
+                            <b>d</b>irectory". También gracias a este comando se puede volver a un directorio anterior,
+                            o incluso volver
+                            al directorio <b>home</b>.
+                        </p>
+                        <div style="margin-top: 20px;" align="center">
+                            <img align="center" src="img/cd.png">
+                        </div>
+
+                        <h4 class="commands">mkdir</h4>
+                        <p>Usa <b>mkdir</b> para crear una carpeta o un directorio con su respectivo nombre.
+                        </p>
+                        <div style="margin-top: 20px;" align="center">
+                            <img align="center" src="img/mkdir.png">
+                        </div>
+
+                        <h4 class="commands">touch</h4>
+                        <p>Si quieres crear un fichero vacío, usa <b>touch</b> y el nombre del fichero.
+                        </p>
+                        <div style="margin-top: 20px;" align="center">
+                            <img align="center" src="img/touch.png">
+                        </div>
+
+
+                        <h4 class="commands">echo y cat</h4>
+                        <p>Devuelve los argumentos escritos después de este comando. Combinándolo con <b>></b> se puede
+                            escribir contenido en un fichero.
+                        </p>
+                        <p>
+                            Para visualizar el contenido de un fichero con <b>cat</b> se puede hacer. También tiene
+                            otras funciones como
+                            concatenar ficheros, o mostrar el número de líneas.
+                        </p>
+                        <div style="margin-top: 20px;" align="center">
+                            <img align="center" src="img/cat.png">
+                        </div>
+
+
+                        <h4 class="commands">mv</h4>
+                        <p>Utiliza <b>mv</b> para mover un fichero entre directorios. Además se hace uso de <b>mv</b>
+                            para
+                            renombrar un fichero.
+                        </p>
+                        <div style="margin-top: 20px;" align="center">
+                            <img align="center" src="img/mv.png">
+                        </div>
+
+
+                        <h4 class="commands">cp</h4>
+                        <p>Usa <b>cp</b> para copiar archivos. Toma dos argumentos: la primera es la dirección del
+                            archivo a copiar y
+                            la segunda, dónde se quiere copiar.
+                        </p>
+                        <div style="margin-top: 20px;" align="center">
+                            <img align="center" src="img/cp.png">
+                        </div>
+
+
+                        <h4 class="commands">rm</h4>
+                        <p>Usa <b>rm</b> para eliminar ficheros o directorios. Si solo se quiere eliminar el directorio
+                            <b>rm -r</b>
+                        </p>
+                        <div style="margin-top: 20px;" align="center">
+                            <img align="center" src="img/rm.png">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Portfolio End -->
-        
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+        <!-- Botones Tarjeta -->
+        <div class="container-xxl py-5">
+            <div class="container px-lg-5">
+                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="position-relative d-inline text-primary ps-4" id="interes">Sitios de interés</h6>
+                    <p>Si desea conocer más comandos, te dejamos varios sitios webs llenos de información. </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <span><img src="https://cdn-icons-png.flaticon.com/512/10015/10015123.png" width="45" height="45"></span>
+                            </div>
+                            <h5 class="mb-3">Unix/Linux Command Reference</h5>
+                            <a class="btn px-3 mt-auto mx-auto"
+                                href="http://cc.iiti.ac.in/docs/linuxcommands.pdf" target="_blank">Visitar</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Popular Link</h5>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-                        <a class="btn btn-link" href="">Career</a>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Project Gallery</h5>
-                        <div class="row g-2">
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-1.jpg" alt="Image">
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <span><img src="https://cdn-icons-png.flaticon.com/512/10075/10075827.png" width="45" height="45"></span>
                             </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-2.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-3.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-4.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-5.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-6.jpg" alt="Image">
-                            </div>
+                            <h5 class="mb-3">The Linux command line for beginners</h5>
+                            <a class="btn px-3 mt-auto mx-auto" href="https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal" target="_blank">Visitar</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <span><img src="https://cdn-icons-png.flaticon.com/512/10032/10032769.png" width="50" height="50"></span>
+                            </div>
+                            <h5 class="mb-3">Basic Linux Commands for Beginners</h5>
+                            <a class="btn px-3 mt-auto mx-auto"
+                                href="https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners" target="_blank">Visitar</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <span><img src="https://cdn.discordapp.com/attachments/1083100781957369977/1086632259911692308/manual_1.png" width="45" height="45"></span>
+                            </div>
+                            <h5 class="mb-3">Linux Commands Guide</h5>
+                            <a class="btn px-3 mt-auto mx-auto"
+                                href="https://linuxhint.com/linux-commands-guide/" target="_blank">Visitar</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <span><img src="https://cdn.discordapp.com/attachments/1083100781957369977/1086633699652677632/2965335.png" width="45" height="45"></span>
+                            </div>
+                            <h5 class="mb-3">Linux Guide/Linux commands</h5>
+                            <a class="btn px-3 mt-auto mx-auto"
+                                href="https://en.wikibooks.org/wiki/Linux_Guide/Linux_commands" target="_blank">Visitar</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <span><img src="https://cdn.discordapp.com/attachments/1083100781957369977/1086633301999095958/sitio-web.png" width="45" height="45"></span>
+                            </div>
+                            <h5 class="mb-3">45 Essential Linux Commands (with Examples)</h5>
+                            <a class="btn px-3 mt-auto mx-auto"
+                                href="https://www.tutorialworks.com/linux-commands/" target="_blank">Visitar</a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- Fin Botones Tarjeta -->
+
+
+
+
+        <!-- Footer Start -->
+        <div class="bg-primary text-light footer" data-wow-delay="0.1s">
             <div class="container px-lg-5">
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                            &copy; <a class="border-bottom" href="inicio.html">LinuxMaster</a>, All Right Reserved.
+
+                            <!--/*** This template is free as long as you keep the footer authors credit link/attribution link/backlink. If you'd like to use the template without the footer authors credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
+                                <a href="https://es.wikipedia.org/wiki/Sistema_operativo">Sistemas Operativos</a>
+                                <a>Carlos Iglesias Alvarez</a>
                             </div>
                         </div>
                     </div>
