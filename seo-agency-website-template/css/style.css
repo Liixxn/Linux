@@ -5,7 +5,9 @@
     --light: #F7FAFF;
     --dark: #1D1D27;
 }
-
+.text-justify{
+    text-align: justify;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -345,7 +347,7 @@ h6,
     color: #888888;
 }
 
-.testimonial-carousel .owl-item.center .testimonial-item i {
+.testimonial-carousel .owl-item.center .testimonial-item h5 {
     color: var(--primary) !important;
 }
 
