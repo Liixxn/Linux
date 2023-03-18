@@ -49,6 +49,11 @@ h6,
 
 
 /*** Button ***/
+.btn-light{
+    font-weight: 500;
+    transition: .5s;
+    background-color: #4777F5;
+}
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -289,7 +294,9 @@ h6,
 .service-item:hover p {
     color: var(--light);
 }
-
+.float-right {
+    float: right;
+  }
 .service-item a.btn {
     position: relative;
     display: flex;
